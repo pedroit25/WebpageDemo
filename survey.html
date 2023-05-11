@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Movie Recommendation System</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Movie Recommendation System - Survey</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Movie Recommendation System</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href
+  <div class="container survey-box">
+    <h1>Movie Recommendation System - Survey</h1>
+    <form action="recommendation.html" method="get">
+      <label for="genre">Preferred Genre:</label>
+      <select name="genre" id="genre">
+        <option value="">Select a Genre</option>
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="horror">Horror</option>
+        <option value="romance">Romance</option>
+        <option value="sci-fi">Science Fiction</option>
+      </select>
+
+      <label for="rating">Movie Rating:</label>
+      <select name="rating" id="rating">
+        <option value="">Select a Rating</option>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+      </select>
+
+      <label for="age-rating">Age Rating:</label>
+      <select name="age-rating" id="age-rating">
+        <option value="">Select an Age Rating</option>
+        <option value="G">G - General Audiences</option>
+        <option value="PG">PG - Parental Guidance Suggested</option>
+        <option value="PG-13">PG-13 - Parents Strongly Cautioned</option>
+        <option value="R">R - Restricted</option>
+        <option value="NC-17">NC-17 - Adults Only</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
