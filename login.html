@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Movie Recommendation System</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="login-box">
-		<h1>Login Here</h1>
-		<form>
-			<p>Username</p>
-			<input type="text" name="username" placeholder="Enter Username">
-			<p>Password</p>
-			<input type="password" name="password" placeholder="Enter Password">
-			<input type="submit" name="submit" value="Login">
-		</form>
-	</div>
+	<header>
+		<h1>Movie Recommendation System</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="start_survey.html">Take Survey</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="login-box">
+			<h2>Login</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username"><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password"><br><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
 </body>
 </html>

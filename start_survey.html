@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Start Survey</title>
+	<title>Movie Recommendation System</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="start-survey-box">
-		<h1>Welcome to the Movie Recommendation System</h1>
-		<p>Please answer the following questions to get personalized movie recommendations:</p>
-		<a href="survey.html"><button>Start Survey</button></a>
-	</div>
+	<header>
+		<h1>Movie Recommendation System</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="start_survey.html">Take Survey</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="start-survey-box">
+			<h2>Movie Preference Survey</h2>
+			<p>Please answer the following questions to help us recommend a movie for you.</p>
+			<button onclick="startSurvey()">Start Survey</button>
+		</div>
+	</main>
+	<script src="script.js"></script>
 </body>
 </html>
