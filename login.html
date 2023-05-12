@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FakeFlix</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-		body {
-			background-image: url("https://wallpaper-house.com/data/out/6/wallpaper2you_90650.jpg");
-			background-size: cover;
-			background-repeat: no-repeat;
-    		background-position: center center;
-		}
-		.login-box {
-			background-color: rgb(197, 0, 0);
-			width: 300px;
-			margin: 0 auto;
-			padding: 20px;
-			text-align: center;
-			border-radius: 10px;
-		}
-	</style>
+  <title>Movie Recommendation System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>FakeFlix</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="start_survey.html">Take Survey</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<div class="login-box">
-			<h2>Login</h2>
-			<form>
-				<label for="username">Username:</label>
-				<input type="text" id="username" name="username"><br><br>
-				<label for="password">Password:</label>
-				<input type="password" id="password" name="password"><br><br>
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-	</main>
-	<script src="script.js"></script>
+  <header>
+    <h1>Movie Recommendation System</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="start_survey.html">Take Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="login-box">
+      <h2>Login</h2>
+      <form id="login-form" action="start_survey.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
